@@ -1,6 +1,71 @@
 ---
 ---
 
-body * {
-	border: 2px solid black;
+/* Website Colors
+	Light Grey    - #E1E5EF - rgba(225, 229, 239, 1)
+	White         - #FFFFFF - rgba(255, 255, 255, 1)
+	Black         - #000000 - rgba(0, 0, 0, 1)
+	Dark Cerulean - #044B7F - rgba(4, 75, 127, 1)
+*/
+
+body {
+	background:          #FFFFFF;
+	font-family:         "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:           100%;
+	display:             flex;
+	min-height:          100vh;
+	flex-direction:      column;
+} header, footer {
+	width:               100%;
+	height:              auto;
+	min-height:          2em;
+} header {
+	position:            relative;
+	top:                 0;
+	left:                0;
+} main {
+	flex:                1;
+	padding:             1em;
+} a {
+	color:               inherit;
+	text-decoration:     none;
+}
+
+header nav, footer {
+	width:               100%;
+	background:          #E1E5EF;
+} 
+
+header h1 {
+	font-size:           3em;
+	color:               #044B7F;
+	display:             block;
+} header h2 {
+	font-size:           1.25em;
+	display:             block;
+	margin-left:         2em;
+} 
+
+main nav a {
+	display:             inline-block;
+	padding:             .5em .75em;
+	min-width:           3.25em;
+	background:          #044B7F;
+	color:               #000000;
+	font-weight:         bold;
+	text-align:          center;
+	font-size:           1em;
+	border-left:         .25em solid #044B7F;
+} main nav a:hover {
+	background:          #E1E5EF;
+	color:               #000000;
+}
+
+footer {
+	padding:             1em;
+	text-alighn:         center;
+} footer {
+	color:               #044B7F;
+} footer {
+	color:               #000000;
 }

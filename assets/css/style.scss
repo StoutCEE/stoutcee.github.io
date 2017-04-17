@@ -47,24 +47,22 @@ header h1 {
 } 
 
 main nav a {
-	display:             inline-block;
+	display:             block;
 	padding:             .5em .75em;
-	width:               4.5em;
+	width:               5em;
 	background:          #044B7F;
 	color:               #FFFFFF;
 	font-weight:         bold;
 	text-align:          center;
 	font-size:           1em;
 	border-left:         .25em solid #044B7F;
+	margin:              .1em;
 } main nav a:hover {
 	background:          #E1E5EF;
 	color:               #000000;
 } main #main-content {
 	float:               left;
 	padding:             .5em;
-} main #sidebar {
-	float:               right;
-	width:               4.75em;
 }
 
 footer {

@@ -15,6 +15,9 @@ body {
 	display:             flex;
 	min-height:          100vh;
 	flex-direction:      column;
+} body * {
+	margin: 0;
+	padding: 0;
 } header, footer {
 	width:               100%;
 	height:              auto;
@@ -61,8 +64,11 @@ main nav a {
 	background:          #E1E5EF;
 	color:               #000000;
 } main #main-content {
-	float:               left;
-	padding:             .5em;
+	padding:             1em;
+}  main #main-content {
+	float:               right;
+} main section {
+	display:             inline-block;
 }
 
 footer {

@@ -1,2 +1,8 @@
 ---
 ---
+
+@import "{{ site.theme }}";
+
+body * {
+	border: 2px solid black;
+}

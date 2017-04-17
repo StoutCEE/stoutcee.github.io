@@ -49,9 +49,9 @@ header h1 {
 main nav a {
 	display:             inline-block;
 	padding:             .5em .75em;
-	min-width:           3.25em;
+	width:               4em;
 	background:          #044B7F;
-	color:               #000000;
+	color:               #FFFFFF;
 	font-weight:         bold;
 	text-align:          center;
 	font-size:           1em;
@@ -59,6 +59,11 @@ main nav a {
 } main nav a:hover {
 	background:          #E1E5EF;
 	color:               #000000;
+} main #main-content {
+	float:               left;
+	padding:             .5em;
+} main #sidebar {
+	float:               right;
 }
 
 footer {

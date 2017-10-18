@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to the Stout CEE Website on GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/StoutCEE/stoutcee.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This website is hosted on GitHub Pages and uses Jekyll. It is unlikely we will use this code on Luna (our Linux server). However, it may be nice to post information like links to Luna's IP Address and updates with the lab.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Cool Things About GitHub Pages
+ - We don't have to host anything
+ - If Stout network goes down, this website is still up
+ - If Luna goes down, this website is still up
+ - Auto-generate pages with layouts (similar to how we use PHP for layouts)
 
-### Markdown
+### Not Cool Things About GitHub Pages
+ - SLOW
+ - Limited amount of traffic (per month?)
+ - Limited amount of commits (per day?)
+ - No server side scripts allowed (no PHP)
+ - No database options (no MySQL)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StoutCEE/stoutcee.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Check out the [documentation](https://help.github.com/categories/github-pages-basics/)
